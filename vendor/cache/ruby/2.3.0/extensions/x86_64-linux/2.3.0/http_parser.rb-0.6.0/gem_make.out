@@ -1,0 +1,17 @@
+current directory: /media/karthikkalidas/KK_Windows/Users/Karthik/Box Sync/OSU Stuff/Projects/Personal Website/vendor/cache/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby2.3 -r ./siteconf20200311-2496-11n9tme.rb extconf.rb
+creating Makefile
+
+current directory: /media/karthikkalidas/KK_Windows/Users/Karthik/Box Sync/OSU Stuff/Projects/Personal Website/vendor/cache/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /media/karthikkalidas/KK_Windows/Users/Karthik/Box Sync/OSU Stuff/Projects/Personal Website/vendor/cache/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+gcc: error: Sync/OSU: No such file or directory
+gcc: error: Stuff/Projects/Personal: No such file or directory
+gcc: error: Website/vendor/cache/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser: No such file or directory
+Makefile:239: recipe for target 'ruby_http_parser.o' failed
+make: *** [ruby_http_parser.o] Error 1
+
+make failed, exit code 2
