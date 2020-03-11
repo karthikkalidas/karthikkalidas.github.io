@@ -100,7 +100,7 @@ author:
   linkedin         : "karthikkalidas"
   github           : "karthikkalidas"
 
-Site Footer
+# Site Footer
 footer:
   links:
     - label: "Twitter"
