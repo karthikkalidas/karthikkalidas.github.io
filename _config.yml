@@ -12,8 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # Site Settings
 locale                   : "en-US"
 title                    : "karthikkalidas"
@@ -102,7 +101,7 @@ author:
   github           : "karthikkalidas"
 
 # Site Footer
-footer:
+# footer:
   # links:
   #   - label: "Twitter"
   #     icon: "fab fa-fw fa-twitter-square"
