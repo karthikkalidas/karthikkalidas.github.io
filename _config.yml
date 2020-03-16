@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Karthik Kalidas"
-  avatar           : "images/bio-photo.jpeg"
+  avatar           : "images/bio-photo-linkedin.png"
   bio              : "Graduate Student, The Ohio State University"
   location         : "Columbus, OH, USA"
   email            : "kalidas.1@osu.edu"
@@ -189,7 +189,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
   - jekyll-redirect-from
 
@@ -198,7 +197,6 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
   - jekyll-redirect-from
 
