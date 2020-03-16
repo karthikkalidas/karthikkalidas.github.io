@@ -28,7 +28,6 @@ en: &DEFAULT_EN
   more_label                 : "Learn more"
   related_label              : "You may also enjoy"
   follow_label               : "Follow:"
-  feed_label                 : "Feed"
   powered_by                 : "Powered by"
   website_label              : "Website"
   email_label                : "Email"
@@ -1555,7 +1554,7 @@ hi: &DEFAULT_HI
   back_to_top                : "शीर्ष पर वापस"
 hi-IN:
   <<: *DEFAULT_HI
-  
+
 # Catalan
 # --------------
 ca: &DEFAULT_CA
@@ -1607,7 +1606,7 @@ ca: &DEFAULT_CA
   back_to_top                : "Torna a dalt"
 ca-ES:
   <<: *DEFAULT_CA
-  
+
 # Irish (Gaeilge)
 # --------------
 ga: &DEFAULT_GA
