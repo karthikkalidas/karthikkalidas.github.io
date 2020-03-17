@@ -21,7 +21,7 @@ B.Tech in Mechanical Engineering, 2019<br>
 <span style="font-size: 0.75em;">Indian Institute of Technology Bombay</span>
 
 ### Gifs:
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://github.com/karthikkalidas/karthikkalidas.github.io/blob/master/gifs/giphy.gif?raw=true)
 
 ### Image gallery:
 {% include image-gallery.html folder="/images" %}
