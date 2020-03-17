@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/portfolio/2020-03-16-lanes/</loc>
+<loc>http://localhost:4000/portfolio/2020-03-16-fps/</loc>
 <lastmod>2020-03-16T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/portfolio/2020-03-16-lanes2/</loc>
+<loc>http://localhost:4000/portfolio/2020-03-16-lanefinding/</loc>
 <lastmod>2020-03-16T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/portfolio/2020-03-16-lanes3/</loc>
+<loc>http://localhost:4000/portfolio/2020-03-16-legoslam/</loc>
 <lastmod>2020-03-16T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/slam/</loc>
+<loc>http://localhost:4000/portfolio/2020-03-16-pathplanning/</loc>
+<lastmod>2020-03-16T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/2020-03-16-twitchslam/</loc>
+<lastmod>2020-03-16T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/bloginit/</loc>
+<lastmod>2020-03-11T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/state-estimation/</loc>
 <lastmod>2020-03-11T00:00:00-04:00</lastmod>
 </url>
 <url>
