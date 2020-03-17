@@ -1,13 +1,12 @@
 ---
-title: Blog
-header: True
+title: "Blog"
+layout: archive
 permalink: /blog/
+author_profile: true
 ---
-{% include group-by-array collection=site.posts field="tags" %}
-
-{% for tag in group_names %}
+{% include group-by-array collection=site.posts field="title" %}
+{% for title in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
   {% for post in posts %}
     {% include archive-single.html %}
   {% endfor %}

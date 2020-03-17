@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Karthik Kalidas"
   avatar           : "images/bio-photo-linkedin.png"
-  bio              : "Graduate Student, The Ohio State University"
+  bio              : "Seeking Challenges"
   location         : "Columbus, OH, USA"
   email            : "kalidas.1@osu.edu"
   github           : "karthikkalidas"
@@ -200,7 +200,10 @@ whitelist:
   - jekyll-include-cache
   - jekyll-redirect-from
 
-
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -244,6 +247,18 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
+  # _projs
+  - scope:
+      path: ""
+      type: portfolio
     values:
       layout: single
       author_profile: true
