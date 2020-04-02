@@ -24,4 +24,4 @@ B.Tech in Mechanical Engineering, 2019<br>
 ![Alt Text](https://github.com/karthikkalidas/karthikkalidas.github.io/blob/master/gifs/giphy.gif?raw=true)
 
 ### Image gallery:
-{% include image-gallery.html folder="{{ site.url }}{{ site.baseurl }}/images" %}
+{% include image-gallery.html folder="/images" %}
