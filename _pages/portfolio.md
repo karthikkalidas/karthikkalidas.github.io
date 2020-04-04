@@ -52,16 +52,17 @@ feature_row4:
         - SLAM
         - Python
 
+
 ---
 
 **Skills**: Python, C++
 
 **Libraries**: NumPy
-
 ----------------------------------------------------------
 **Selected projects**:
 
 {% include feature_row id="feature_row1" type="left" %}
 {% include feature_row id="feature_row2" type="left" %}
+![](/gifs/lanefinding_video.gif)
 {% include feature_row id="feature_row3" type="left" %}
 {% include feature_row id="feature_row4" type="left" %}
