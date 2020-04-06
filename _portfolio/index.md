@@ -1,7 +1,7 @@
 ---
-title: Portfolio
-layout: splash
-permalink: /portfolio/
+title: "Portfolio"
+layout: "collection"
+permalink: /portfolio/index.html
 classes: wide
 
 feature_row1:
@@ -59,4 +59,3 @@ feature_row2:
 
 {% include feature_row id="feature_row1" %}
 {% include feature_row id="feature_row2" %}
----

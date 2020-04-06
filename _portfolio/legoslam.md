@@ -1,7 +1,11 @@
 ---
 title: "SLAM Project"
+permalink: "/portfolio/legoslam"
+layout: "single"
 date: 2020-03-11
 excerpt: "Estimation, Filtering"
+toc: true
+toc_label: "Contents"
 ---
 
 # H1 Heading
