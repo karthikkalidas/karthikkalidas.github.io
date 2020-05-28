@@ -1,8 +1,10 @@
 ---
 title: "Portfolio"
-layout: "collection"
+layout: "single"
 permalink: /portfolio/index.html
 classes: wide
+toc: false
+toc_label: "Contents"
 
 feature_row1:
   - image_path: /gifs/coursera_selfdr.gif
@@ -56,6 +58,8 @@ feature_row2:
 ## Engineering Experience
 
 ## Projects
+
+## Scholastic Achievements
 
 {% include feature_row id="feature_row1" %}
 {% include feature_row id="feature_row2" %}

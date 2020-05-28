@@ -1,11 +1,13 @@
 # main links
 main:
-  - title: "About"
+  - title: "Home"
     url: "/"
+  - title: "Education"
+    url: "/education"
   - title: "Portfolio"
     url: "/portfolio/"
-  - title: "Blog"
-    url: "/blog"
+  # - title: "Blog"
+  #   url: "/blog"
   - title: "Resume"
     url: "https://karthikkalidas.github.io/Karthik_Kalidas_Internship_Resume_AV.pdf"
 
@@ -13,8 +15,6 @@ main:
 portfolio:
   - title: "Projects"
     children:
-#      - title: "Machine Learning on AWS"
-#        url: /portfolio/coming/
       - title: "SLAM"
         url: /portfolio/legoslam
       - title: "NetComp: Python Network Comparison"
@@ -22,18 +22,11 @@ portfolio:
       - title: "Automatic Genre Classification"
         url: /portfolio/genre_cls/
 
-  - title: "Professional"
-    children:
-      - title: "DeskAI"
-        url: /portfolio/deskai
-      - title: "Smart Climate Index"
-        url: /portfolio/sclm
-
   - title: "Research"
     children:
-      - title: "Dynamic Anomaly Detection"
-        url: /portfolio/networks/
-      - title: "Statistics of Entanglement"
-        url: /portfolio/qm_stats/
-      - title: "Magnetic Waves and Noise"
-        url: /portfolio/waves/
+      - title: "SLAM"
+        url: /portfolio/legoslam
+      - title: "NetComp: Python Network Comparison"
+        url: /portfolio/netcomp/
+      - title: "Automatic Genre Classification"
+        url: /portfolio/genre_cls/
