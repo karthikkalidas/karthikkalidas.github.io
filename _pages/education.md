@@ -7,7 +7,7 @@ author_profile: true
 feature_row1:
   - image_path: /images/osu_logo.jpg
     title: "The Ohio State University"
-    excerpt: "**Masters Of Science (MS) in Mechanical Engineering**<br />
+    excerpt: "**Master Of Science (MS) in Mechanical Engineering**<br />
     *August 2019 - December 2020 (Expected)* <br />
     **GPA**: 4.0/4.0"
 
