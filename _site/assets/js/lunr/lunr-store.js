@@ -1,6 +1,6 @@
 var store = [{
         "title": "Portfolio",
-        "excerpt":"Research Work Experience Engineering Experience Projects Scholastic Achievements Coursera Self-Driving Car Specialization Projects of State Estimation, Perception and Motion Planning for self driving cars. Part of the 4-Course Specialization Read More Lego Robot SLAM Simultaneous Localization and Mapping (SLAM) project with a 2D robot environment Read More Lane Finding using...","categories": [],
+        "excerpt":"Research | Automated Driving Lab Pedestrian-AV Interactions How can autonomous vehicles predict a pedestrain’s trajectory for safe maneuvering Read More Creating Simulation Environments using Carla Simulation environments are crucial for the testing of algorithms Read More Professional Experience Internship at KPIT Technologies My experience being a part of the ADAS...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/portfolio/index.html",
         "teaser": null

@@ -6,27 +6,51 @@ main:
     url: "/education"
   - title: "Portfolio"
     url: "/portfolio/"
-  # - title: "Blog"
-  #   url: "/blog"
+  - title: "Blog"
+    url: "/blog"
   - title: "Resume"
-    url: "https://karthikkalidas.github.io/Karthik_Kalidas_Internship_Resume_AV.pdf"
+    url: "/assets/docs/Karthik_Kalidas_Internship_Resume_AV.pdf"
 
 # sidebar for portfolio
 portfolio:
-  - title: "Projects"
-    children:
-      - title: "SLAM"
-        url: /portfolio/legoslam
-      - title: "NetComp: Python Network Comparison"
-        url: /portfolio/netcomp/
-      - title: "Automatic Genre Classification"
-        url: /portfolio/genre_cls/
-
   - title: "Research"
     children:
-      - title: "SLAM"
-        url: /portfolio/legoslam
-      - title: "NetComp: Python Network Comparison"
-        url: /portfolio/netcomp/
-      - title: "Automatic Genre Classification"
-        url: /portfolio/genre_cls/
+        - title: "Pedestrian-AV Interactions"
+          url: /portfolio/sdc
+        - title: "Simulation Environments"
+          url: /portfolio/maps
+        - title: "AV Hardware Integration"
+          url: /portfolio/dash
+
+  - title: "Professional Experience"
+    children:
+        - title: "KPIT Technologies"
+          url: /portfolio/sdc
+
+  - title: "Engineering Experience"
+    children:
+        - title: "Formula Student"
+          url: /portfolio/sdc
+
+  - title: "Course Projects"
+    children:
+        - title: "Coursera Self-Driving Car Specialization"
+          url: /portfolio/sdc
+        - title: "Lego Robot SLAM"
+          url: /portfolio/legoslam
+        - title: "Lane Finding using OpenCV"
+          url: /portfolio/lanefinding
+        - title: "Graph-Based Path Planning"
+          url: /portfolio/pp
+        - title: "Reinforcement Learning for Autonomy"
+          url: /portfolio/rl
+        - title: "Robotic Assembly Line using ROS"
+          url: /portfolio/hrwros
+
+
+  - title: "Workshops & Conferences Attended"
+    children:
+        - title: "Pedestrian Motion Predicton & Path Planning"
+          url: /portfolio/#scholastic-achievements
+        - title: "Dash EV Hardware Integration"
+          url: /portfolio/#scholastic-achievements

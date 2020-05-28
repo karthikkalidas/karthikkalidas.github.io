@@ -3,6 +3,8 @@ title: "Relevant Coursework"
 layout: single
 permalink: /courses/
 author_profile: true
+toc: true
+toc_label: "Contents"
 ---
 ## The Ohio State University
 [(Academic Report)][o1]{:target="_blank"}
@@ -43,8 +45,8 @@ author_profile: true
 - [Simultaneous Localization & Mapping (Clauss Brenner)][10]{:target="_blank"}
 
 
-[o1]: assets/docs/osu_advising.pdf
-[i1]: assets/docs/transcript.pdf
+[o1]: /assets/docs/osu_advising.pdf
+[i1]: /assets/docs/transcript.pdf
 [0]: https://www.coursera.org/specializations/data-structures-algorithms#courses
 [1]: https://www.coursera.org/learn/intro-self-driving-cars
 [2]: https://www.coursera.org/learn/state-estimation-localization-self-driving-cars
