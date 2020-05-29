@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Portfolio",
-        "excerpt":"Research | Automated Driving Lab Image courtesy of Unsplash Pedestrian-AV Interactions How can autonomous vehicles predict a pedestrain’s trajectory for safe maneuvering Read More Creating Realisitc Simulation Environments in Carla Simulation environments are crucial for the testing of algorithms Read More Professional Experience Internship at KPIT Technologies My experience being...","categories": [],
+        "excerpt":"Professional Experience Internship at KPIT Technologies Summer internship as part of the ADAS group at KPIT, 2018. I was mainly responsible for designing and testing Plug and Play hardware to enable Automatic Emergency Braking (AEB) in commerical vehicles Engineering Experience Fomula Student : IIT Bombay Racing IIT Bombay Racing is...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/portfolio/index.html",
         "teaser": null

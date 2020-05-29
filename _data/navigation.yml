@@ -14,43 +14,16 @@ main:
 # sidebar for portfolio
 portfolio:
   - title: "Research"
-    children:
-        - title: "Pedestrian-AV Interactions"
-          url: /portfolio/pedestrianAV
-        - title: "Simulation Environments"
-          url: /portfolio/simulation
+    url: /portfolio/#research--automated-driving-lab
 
   - title: "Professional Experience"
-    children:
-        - title: "KPIT Technologies"
-          url: /portfolio/kpit
+    url: /portfolio/#professional-experience
 
   - title: "Engineering Experience"
-    children:
-        - title: "Formula Student"
-          url: /portfolio/racing
+    url: /portfolio/#engineering-experience
 
-  - title: "Course Projects"
-    children:
-        - title: "Coursera Self-Driving Car Specialization"
-          url: /portfolio/sdc
-        - title: "Lego Robot SLAM"
-          url: /portfolio/legoslam
-        - title: "Lane Finding using OpenCV"
-          url: /portfolio/lanefinding
-        - title: "Graph-Based Path Planning"
-          url: /portfolio/pp
-        - title: "Reinforcement Learning for Autonomy"
-          url: /portfolio/rl
-        - title: "Robotic Assembly Line using ROS"
-          url: /portfolio/hrwros
-
-  - title: "Workshops & Conferences Attended"
-    children:
-        - title: "Pedestrian Motion Predicton & Path Planning"
-          url: /portfolio/#scholastic-achievements
-        - title: "Dash EV Hardware Integration"
-          url: /portfolio/#scholastic-achievements
+  - title: "Other Projects"
+    url: /portfolio/#projects
 
   - title: "Teaching & Mentoring"
     url: /portfolio/#teaching--mentoring
