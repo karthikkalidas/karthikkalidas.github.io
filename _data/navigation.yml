@@ -6,8 +6,8 @@ main:
     url: "/education"
   - title: "Portfolio"
     url: "/portfolio/"
-  - title: "Blog"
-    url: "/blog"
+  # - title: "Blog"
+  #   url: "/blog"
   - title: "Resume"
     url: "/assets/docs/Karthik_Kalidas_Internship_Resume_AV.pdf"
 
@@ -16,21 +16,19 @@ portfolio:
   - title: "Research"
     children:
         - title: "Pedestrian-AV Interactions"
-          url: /portfolio/sdc
+          url: /portfolio/pedestrianAV
         - title: "Simulation Environments"
-          url: /portfolio/maps
-        - title: "AV Hardware Integration"
-          url: /portfolio/dash
+          url: /portfolio/simulation
 
   - title: "Professional Experience"
     children:
         - title: "KPIT Technologies"
-          url: /portfolio/sdc
+          url: /portfolio/kpit
 
   - title: "Engineering Experience"
     children:
         - title: "Formula Student"
-          url: /portfolio/sdc
+          url: /portfolio/racing
 
   - title: "Course Projects"
     children:
@@ -47,10 +45,12 @@ portfolio:
         - title: "Robotic Assembly Line using ROS"
           url: /portfolio/hrwros
 
-
   - title: "Workshops & Conferences Attended"
     children:
         - title: "Pedestrian Motion Predicton & Path Planning"
           url: /portfolio/#scholastic-achievements
         - title: "Dash EV Hardware Integration"
           url: /portfolio/#scholastic-achievements
+
+  - title: "Teaching & Mentoring"
+    url: /portfolio/#teaching--mentoring

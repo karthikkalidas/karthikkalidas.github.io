@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>SLAM Project - Karthik Kalidas</title>
-<meta name="description" content="Estimation, Filtering ">
+<!-- begin _includes/seo.html --><title>Modeling Autonomous Vehicle Interactions with Pedestrians - Karthik Kalidas</title>
+<meta name="description" content="Personal Website ">
 
 
   <meta name="author" content="Karthik Kalidas">
@@ -19,30 +19,30 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Karthik Kalidas">
-<meta property="og:title" content="SLAM Project">
-<meta property="og:url" content="http://localhost:4000/portfolio/legoslam">
+<meta property="og:title" content="Modeling Autonomous Vehicle Interactions with Pedestrians">
+<meta property="og:url" content="http://localhost:4000/portfolio/pedestrianAV">
 
 
-  <meta property="og:description" content="Estimation, Filtering ">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2020-03-11T00:00:00-04:00">
+  <meta property="og:description" content="Personal Website ">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2020-05-15T00:00:00-04:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/portfolio/legoslam">
+
+<link rel="canonical" href="http://localhost:4000/portfolio/pedestrianAV">
 
 
 
@@ -185,7 +185,7 @@
         
         <ul>
           
-            <li><a href="/portfolio/pedestrianAV">Pedestrian-AV Interactions</a></li>
+            <li><a href="/portfolio/pedestrianAV" class="active">Pedestrian-AV Interactions</a></li>
           
             <li><a href="/portfolio/simulation">Simulation Environments</a></li>
           
@@ -231,7 +231,7 @@
           
             <li><a href="/portfolio/sdc">Coursera Self-Driving Car Specialization</a></li>
           
-            <li><a href="/portfolio/legoslam" class="active">Lego Robot SLAM</a></li>
+            <li><a href="/portfolio/legoslam">Lego Robot SLAM</a></li>
           
             <li><a href="/portfolio/lanefinding">Lane Finding using OpenCV</a></li>
           
@@ -279,15 +279,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="SLAM Project">
-    <meta itemprop="description" content="Estimation, Filtering">
-    <meta itemprop="datePublished" content="2020-03-11T00:00:00-04:00">
+    <meta itemprop="headline" content="Modeling Autonomous Vehicle Interactions with Pedestrians">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2020-05-15T00:00:00-04:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">SLAM Project
+          <h1 id="page-title" class="page__title" itemprop="headline">Modeling Autonomous Vehicle Interactions with Pedestrians
 </h1>
           
         </header>
@@ -299,40 +299,28 @@
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Contents</h4></header>
               <ul class="toc__menu">
-  <li><a href="#h1-heading">H1 Heading</a>
-    <ul>
-      <li><a href="#h2-heading">H2 Heading</a>
-        <ul>
-          <li><a href="#h3-heading">H3 Heading</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#objective">Objective</a></li>
+  <li><a href="#methods">Methods</a></li>
+  <li><a href="#simulation-and-testing">Simulation and Testing</a></li>
 </ul>
 
             </nav>
           </aside>
         
-        <h1 id="h1-heading">H1 Heading</h1>
+        <h2 id="introduction">Introduction</h2>
+<p>Autonomous vehicles (AVs) must share space with human pedestrians, both in on-road cases such as cars at pedestrian crossings and off-road cases such as delivery vehicles navigating through crowds on high-streets. Unlike static and kinematic obstacles, pedestrians are active agents with complex, interactive motions. Planning AV actions in the presence of pedestrians thus requires modelling of their probable future behaviour as well as detection and tracking which enable such modelling. This is especially even more safety critical in edge case scenarious such as driving through occluded areas, limited vision driving such as during night, and while encountering crosswalks at corners and intersections. Thus these situations make the challenge of motion prediction of other dynamic obstacles a hot topic, pedestrians an even more crucial one. There has been significant progress in research towards predictions for other vehicles in the scene but not quite extensively done for pedestrians specifically. This is mainly due to the complexities of pedestrians, with added uncertainty and quick unpredictable manuevers. In case you want to learn more, make sure to check out Oliver Cameron’s blog <a href="https://olivercameron.substack.com/p/the-next-leap-in-self-driving-prediction">Let Me Level 5 With You</a> on Predictions.</p>
 
-<h2 id="h2-heading">H2 Heading</h2>
+<h2 id="objective">Objective</h2>
+<p>At ADL, our goal is to deploy shuttles to service at different parts of the city of Columbus for soft autonomous driving, helping people in deliveries and other basic essential needs. This project mainly focuses on the operation of shuttles at the Ohio State School for the Blind. The main objective is to develop autonomous shuttles which are capable of operating safely in a blind school environment in the presence of impaired vision pedestrians, helping them commute across different parts on the school at there will. My goal specifically is to develop algorithms which can help detect, track and predict the motion of such a mixed crowd of people. These motion predictions will be used to develop path planning strategies which can enable robust safety during such interactions. The generated paths need to ensure collision-free trajectories and evasive manueverability if required.</p>
 
-<h3 id="h3-heading">H3 Heading</h3>
+<h2 id="methods">Methods</h2>
 
-<p>Here’s some basic text.</p>
+<p>We start the project with a pedestrian model to be developed. This is one of the crucial steps which will help us predict the future motion of a pedestrian reliable using bayesian techniques. There are several constant velocity based models already developed in literature and taking inspiration from those would be a good starting point for future development.</p>
 
-<p>And here’s some <em>italics</em></p>
+<p>The steps would be to first detect multiple pedestrians in the near enviroment, recognize their future intention using Intent Prediction models. The next step is a challenging one and is a active area of researh - Multi-Target Tracking (MTT) to track all the different numerous pedestrians observerd. Once we all the pedestrains being tracked, we would try to predict their future trajectories. These future trajectories would be used to compute the expected Time-to-Collision (TTC). The methods can be optimized to consider only the pedestrians which pose greater risk to the vehicle and therefore some sort of a risk-based approach can be undertaken. The TTC to all the nearby pedestrians can be taken into account to plan the future trajectory of the vehicle which minimizes risk. This can be a simple emergency braking of an evasive manuever when just braking would not suffice. The loop continues by computing the next closest TTC which poses the greatest risk.</p>
 
-<p>Here’s some <strong>bold</strong> text.</p>
-
-<p>What about a <a href="https://github.com/karthikkalidas">link</a>?</p>
-
-<p>Here’s a bulleted list:</p>
-<ul>
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item</li>
-</ul>
+<h2 id="simulation-and-testing">Simulation and Testing</h2>
 
         
       </section>
@@ -343,7 +331,7 @@
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-03-11T00:00:00-04:00">March 11, 2020</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-05-15T00:00:00-04:00">May 15, 2020</time></p>
         
       </footer>
 
@@ -352,12 +340,11 @@
       
   <nav class="pagination">
     
-      <a href="/portfolio/lanefinding" class="pagination--pager" title="Lane Finding using OpenCV
+      <a href="/portfolio/simulation" class="pagination--pager" title="Creating Realisitic Simulation Environments in Carla
 ">Previous</a>
     
     
-      <a href="/portfolio/pp" class="pagination--pager" title="Graph-Based Path Planning
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
