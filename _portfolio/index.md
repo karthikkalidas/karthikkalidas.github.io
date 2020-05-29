@@ -34,7 +34,7 @@ feature_row_racing:
   - image_path: images/team.jpg
     title: "Fomula Student : IIT Bombay Racing"
     excerpt: "My experiences in being part of Formula Student"
-    url: "/portfolio/pp/"
+    url: "/portfolio/racing/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
