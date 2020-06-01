@@ -28,7 +28,7 @@ feature_row_kpit:
 feature_row_racing:
   - image_path: images/team.jpg
     title: "Fomula Student : IIT Bombay Racing"
-    excerpt: "My experiences in being part of Formula Student"
+    excerpt: "My experiences in being part of Formula Student, one of the world's biggest student engineering design competition. I was part of our FS team IIT Bombay Racing, India’s premier Formula Student Electric team with a vision to “Revolutionize Electric Mobility in India focusing on sustainable technologies and innovations”. We participate in the prestigious international competition Formula Student UK at Silverstone circuit every year with a newly built electric racecar."
     url: "/portfolio/racing/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -75,7 +75,7 @@ feature_row_hobby_projects1:
 feature_row_hobby_projects2:
   - image_path: images/projects/pp/pp_graph.png
     title: "Graph-Based Path Planning"
-    excerpt: "Collection of Dijktra, A* and state-space based search algorithms offered in the online SLAM course by Clauss Brenner"
+    excerpt: "Collection of Dijktra, A* and state-space based search algorithms"
     url: "https://github.com/karthikkalidas/SLAM-Path-Planning/tree/master/Unit_PP"
     btn_label: "Code"
     btn_class: "btn--primary"
