@@ -1,0 +1,55 @@
+# main links
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Education"
+    url: "/education"
+  - title: "Portfolio"
+    url: "/portfolio/"
+  # - title: "Blog"
+  #   url: "/blog"
+  - title: "Resume"
+    url: "/assets/docs/Karthik_Kalidas_Internship_Resume_AV.pdf"
+
+# sidebar for portfolio
+portfolio:
+  - title: "Professional Experience"
+    url: /portfolio/#professional-experience
+    children:
+        - title: "KPIT Technologies"
+          url: /portfolio/kpit
+
+  - title: "Engineering Experience"
+    url: /portfolio/#engineering-experience
+    children:
+        - title: "Formula Student"
+          url: /portfolio/racing
+
+  - title: "Research"
+    url: /portfolio/#research--automated-driving-lab
+    children:
+        - title: "Pedestrian-AV Interactions"
+          url: /portfolio/pedestrianAV
+        - title: "Simulation Environments"
+          url: /portfolio/simulation
+
+  - title: "Course Projects"
+    url: /portfolio/#projects
+    children:
+        - title: "Coursera Self-Driving Car Specialization"
+          url: /portfolio/sdc
+        - title: "Lego Robot SLAM"
+          url: /portfolio/#projects
+          # url: /portfolio/legoslam
+        - title: "Lane Finding using OpenCV"
+          url: /portfolio/#projects
+          # url: /portfolio/lanefinding
+        - title: "Graph-Based Path Planning"
+          url: /portfolio/#projects
+          # url: /portfolio/pp
+        - title: "Robotic Assembly Line using ROS"
+          url: /portfolio/#projects
+          # url: /portfolio/hrwros
+
+  - title: "Teaching & Mentoring"
+    url: /portfolio/#teaching--mentoring
