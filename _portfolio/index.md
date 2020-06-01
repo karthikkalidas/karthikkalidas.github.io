@@ -10,7 +10,7 @@ feature_row_kpit:
   - image_path: images/kpit2.png
     title: "Internship at KPIT Technologies"
     excerpt: "My experience being a part of the ADAS group at KPIT"
-    url: "/portfolio/kpit"
+    url: /portfolio/kpit
     btn_label: "Read More"
     btn_class: "btn--primary"
     excerpt: "Summer internship as part of the ADAS group at KPIT, 2018. I was mainly responsible for designing and testing Plug and Play hardware to enable Automatic Emergency Braking (AEB) in commerical vehicles"
@@ -19,7 +19,7 @@ feature_row_racing:
   - image_path: images/team.jpg
     title: "Fomula Student : IIT Bombay Racing"
     excerpt: "My experiences in being part of Formula Student, one of the world's biggest student engineering design competition. I was part of our FS team IIT Bombay Racing, India’s premier Formula Student Electric team with a vision to “Revolutionize Electric Mobility in India focusing on sustainable technologies and innovations”. We participate in the prestigious international competition Formula Student UK at Silverstone circuit every year with a newly built electric racecar."
-    url: "/portfolio/racing"
+    url: /portfolio/racing
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -28,14 +28,14 @@ feature_row_research:
     image_caption: "Image courtesy of [AutonoMI](https://vimeo.com/99160686)"
     title: "Pedestrian-AV Interactions"
     excerpt: "The ability of self-driving cars to detect and track all of the dynamic objects critical to safe navigation. Especially how can autonomous vehicles predict a pedestrain's trajectory for safe maneuvering in scenarios such as intersections and crosswalks."
-    url: "/portfolio/pedestrianAV"
+    url: /portfolio/pedestrianAV
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: images/projects/simulation/teaser.png
     title: "Creating Realisitc Simulation Environments in Carla"
     excerpt: "Simulation environments are crucial for the virtual testing of autonomous vehicles. How can we make the creation of such enviroments more realistic using open-source tools."
-    url: "/portfolio/simulation"
+    url: /portfolio/simulation
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -44,7 +44,7 @@ feature_row_hobby_projects1:
     title: "Coursera Self-Driving Car Specialization"
     excerpt: "Projects on State Estimation, Perception and Motion Planning for
     self driving cars offered by University of Toronto."
-    url: "/portfolio/sdc"
+    url: /portfolio/sdc
     btn_label: "Read More"
     btn_class: "btn--primary"
 
