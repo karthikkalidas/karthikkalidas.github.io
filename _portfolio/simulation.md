@@ -16,6 +16,7 @@ I believe simulation is a key component to bringing autonomous vehicles to marke
 
 ### CARLA Simulator
 ![](/images/projects/simulation/carla_teaser.jpg)
+
 [CARLA](https://carla.readthedocs.io/en/latest/) (Car Learning to Act) is an open-source autonomous driving simulator. CARLA is grounded on Unreal Engine to run the simulation and uses the OpenDRIVE standard to define roads and urban settings. Control over the simulation is granted through an API handled in Python/C++ that is constantly growing as the project does.
 
 ### RoadRunner

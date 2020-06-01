@@ -3,6 +3,18 @@ title: "Portfolio"
 layout: "collection"
 permalink: /portfolio/index.html
 classes: wide
+toc: false
+toc_label: "Contents"
+
+feature_row_research:
+  - image_path: images/projects/pedestrianAV/teaser.jpeg
+    image_caption: "Image courtesy of [AutonoMI](https://vimeo.com/99160686)"
+    title: "Pedestrian-AV Interactions"
+    excerpt: "How can autonomous vehicles predict a pedestrain's trajectory for safe maneuvering"
+
+  - image_path: images/projects/simulation/teaser.png
+    title: "Creating Realisitc Simulation Environments in Carla"
+    excerpt: "More realistic simulation environments will improve self-driving vehicle safety before road testing"
 
 feature_row_kpit:
   - image_path: images/kpit2.png
@@ -11,6 +23,7 @@ feature_row_kpit:
     url: "/portfolio/kpit/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+    excerpt: "Summer internship as part of the ADAS group at KPIT, 2018. I was mainly responsible for designing and testing Plug and Play hardware to enable Automatic Emergency Braking (AEB) in commerical vehicles"
 
 feature_row_racing:
   - image_path: images/team.jpg

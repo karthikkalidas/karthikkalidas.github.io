@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Portfolio",
-        "excerpt":"Professional Experience Internship at KPIT Technologies My experience being a part of the ADAS group at KPIT Read More Engineering Experience Fomula Student : IIT Bombay Racing My experiences in being part of Formula Student Read More Research | Automated Driving Lab Image courtesy of AutonoMI Pedestrian-AV Interactions The ability...","categories": [],
+        "excerpt":"Professional Experience Internship at KPIT Technologies Summer internship as part of the ADAS group at KPIT, 2018. I was mainly responsible for designing and testing Plug and Play hardware to enable Automatic Emergency Braking (AEB) in commerical vehicles Read More Engineering Experience Fomula Student : IIT Bombay Racing My experiences...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/portfolio/index.html",
         "teaser": null

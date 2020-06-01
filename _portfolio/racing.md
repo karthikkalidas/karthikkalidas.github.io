@@ -102,7 +102,3 @@ on electro-mechanical powertrain, high-voltage battery, cooling system and syste
 - Spearheaded research on All-Wheel-Drive with torque vectoring and In-Hub motors for future racecars
 
 {% include gallery id="gallery_de"%}
-<!--
-## Gallery
-{% include racing_gallery.html height="50" unit="%" duration="5" %}
-[Complete Gallery](/portfolio/racing_full_gallery) -->

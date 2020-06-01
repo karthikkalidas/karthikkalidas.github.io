@@ -19,7 +19,7 @@ For more details visit their [website](www.kpit.com)
 ## Experience
 ![Alt Text](/images/kpit/kpit-pune2.jpg)
 
-I was very fortunate to land an internship at KPIT for summer 2018. I was selected to be part of the ADAS group, focussing on projects involving in enabling Automatic Emergency Braking in commercial vehicles. I had an amazing 2.5 months of work full of enriching learning experiences and fun. I was awarded a Pre-Placement Offer (PPO) to join full-time based on my internship progress and performance.
+I was very fortunate to land an internship at KPIT for summer 2018. I was selected to be part of the ADAS group, focussing on projects involving in enabling Automatic Emergency Braking in commercial vehicles. I had an amazing 2.5 months of work full of enriching learning experiences and fun. I was awarded a Pre-Placement Offer (PPO) to join full-time based on my internship performance.
 
 ## Project Highlights
 - Responsible for designing and testing Plug and Play hardware to enable Automatic Emergency Braking (AEB)
