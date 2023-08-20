@@ -6,10 +6,10 @@ main:
     url: "/education"
   - title: "Portfolio"
     url: "/portfolio/"
-  # - title: "Blog"
-  #   url: "/blog"
   - title: "Resume"
-    url: "/assets/docs/Resume_2022.pdf"
+    url: "/assets/docs/Resume_2023.pdf"
+  - title: "Blog"
+    url: "/blog"
 
 # sidebar for portfolio
 portfolio:

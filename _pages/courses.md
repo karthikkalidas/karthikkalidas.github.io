@@ -2,7 +2,6 @@
 title: "Relevant Coursework"
 layout: single
 permalink: /courses/
-author_profile: true
 toc: true
 toc_label: "Contents"
 ---
