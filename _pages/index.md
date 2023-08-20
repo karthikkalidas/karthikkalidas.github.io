@@ -1,10 +1,8 @@
 ---
-title: "Biography"
+title: "About me"
 layout: home
 permalink: /
 author_profile: true
-header:
-  # overlay_image: /images/header_img.jpeg
 classes: wide
 ---
 I am a System Integration Engineer at [Torc Robotics](https://torc.ai/), working in the field of autonomous trucking. 

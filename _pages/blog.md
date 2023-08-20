@@ -1,8 +1,6 @@
 ---
-title: "Blog"
-layout: archive
+layout: single
 permalink: /blog/
-author_profile: true
 ---
 {% include group-by-array collection=site.posts field="title" %}
 {% for title in group_names %}
