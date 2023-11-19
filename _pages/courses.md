@@ -33,6 +33,7 @@ toc_label: "Contents"
 ## Online Coursework
 <!-- - [Data Structures and Algorithms Specialization][0]{:target="_blank"} -->
 - [Introduction to Self-Driving Cars][1]{:target="_blank"}
+- [Udacity's Self Driving Car Engineer Nanodegree][1]{:target="_blank"}
 - [State Estimation and Localization for Self-Driving Cars][2]{:target="_blank"}
 - [Visual Perception for Self-Driving Cars][3]{:target="_blank"}
 - [Motion Planning for Self-Driving Cars][4]{:target="_blank"}
@@ -47,13 +48,14 @@ toc_label: "Contents"
 [o1]: /assets/docs/osu_advising.pdf
 [i1]: /assets/docs/transcript.pdf
 [0]: https://www.coursera.org/specializations/data-structures-algorithms#courses
-[1]: https://www.coursera.org/learn/intro-self-driving-cars
-[2]: https://www.coursera.org/learn/state-estimation-localization-self-driving-cars
-[3]: https://www.coursera.org/learn/visual-perception-self-driving-cars
-[4]: https://www.coursera.org/learn/motion-planning-self-driving-cars
-[5]: https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system
-[6]: https://www.coursera.org/learn/machine-learning
-[7]: https://www.coursera.org/learn/robotics-learning
-[8]: https://www.coursera.org/learn/robotics-motion-planning
-[9]: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
-[10]: https://www.youtube.com/playlist?list=PLpUPoM7Rgzi_7YWn14Va2FODh7LzADBSm
+[1]: https://www.coursera.org/specializations/data-structures-algorithms#courses
+[2]: https://www.coursera.org/learn/intro-self-driving-cars
+[3]: https://www.coursera.org/learn/state-estimation-localization-self-driving-cars
+[4]: https://www.coursera.org/learn/visual-perception-self-driving-cars
+[5]: https://www.coursera.org/learn/motion-planning-self-driving-cars
+[6]: https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system
+[7]: https://www.coursera.org/learn/machine-learning
+[8]: https://www.coursera.org/learn/robotics-learning
+[9]: https://www.coursera.org/learn/robotics-motion-planning
+[10]: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
+[11]: https://www.youtube.com/playlist?list=PLpUPoM7Rgzi_7YWn14Va2FODh7LzADBSm
