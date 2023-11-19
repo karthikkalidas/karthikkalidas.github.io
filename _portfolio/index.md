@@ -6,8 +6,16 @@ classes: wide
 toc: false
 toc_label: "Contents"
 
-feature_row_kpit:
-  - image_path: images/kpit2.png
+feature_row_professional:
+  - image_path: images/torc/torc.jpg
+    title: "Torc Robotics"
+    excerpt: "My experience at Torc Robotics"
+    url: /portfolio/torc
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    excerpt: "Developing class 8 autonomous trucks as part of the Platform & Vehicle Commissioning team. My expertise lies in system integration and testing within the field of autonomous vehicle technology"
+
+  - image_path: images/kpit/kpit-logo.jpg
     title: "Internship at KPIT Technologies"
     excerpt: "My experience being a part of the ADAS group at KPIT"
     url: /portfolio/kpit
@@ -43,8 +51,8 @@ feature_row_hobby_projects1:
   - image_path: images/projects/udacity_sdr/udacity_sdr.gif
     title: "Udacity Self Driving Car Engineer"
     excerpt: "Train neural networks to classify images related to driving, correspond objects from images to lidar point clouds, predict behavior of other objects in the vehicle’s environment, program a finite state machine to plan the vehicle’s motion, and implement PID controller to use steering, acceleration, and brakes."
-    url: "https://github.com/karthikkalidas/Lane-Finding-OpenCV"
-    btn_label: "Code"
+    url: "https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013"
+    btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: images/projects/coursera_sdc/coursera_sdc.gif
@@ -56,7 +64,7 @@ feature_row_hobby_projects1:
     btn_class: "btn--primary"
 
   - image_path: images/projects/hrwros/hrwros.png
-    title: "Robotic Assembly Line using ROS!"
+    title: "Robotic Assembly Line using ROS"
     excerpt: "Online Course offered by TU Delft on using ROS1 to build an industrial production line with two robotic arms and a mobile robot capable of doing basic tasks such as pick-and-place objects and navigating through obstacles using the Gazebo simulation enviroment."
     url: "https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system"
     btn_label: "Read More"
@@ -86,7 +94,7 @@ feature_row_hobby_projects2:
 ---
 
 ## Professional Experience
-{% include feature_row id="feature_row_kpit" type="left"%}
+{% include feature_row id="feature_row_professional" type="left"%}
 ## Engineering Experience
 {% include feature_row id="feature_row_racing" type="left"%}
 ## Research | Automated Driving Lab
