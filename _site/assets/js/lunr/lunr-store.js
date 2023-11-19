@@ -23,12 +23,6 @@ var store = [{
         "url": "http://localhost:4000/portfolio/kpit",
         "teaser": null
       },{
-        "title": "Lane Finding using OpenCV",
-        "excerpt":"H1 Heading   H2 Heading   H3 Heading   Here’s some basic text.   And here’s some italics   Here’s some bold text.   What about a link?   Here’s a bulleted list:     First item   Second item   Third item  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/portfolio/lanefinding",
-        "teaser": null
-      },{
         "title": "SLAM Project",
         "excerpt":"H1 Heading   H2 Heading   H3 Heading   Here’s some basic text.   And here’s some italics   Here’s some bold text.   What about a link?   Here’s a bulleted list:     First item   Second item   Third item  ","categories": [],
         "tags": [],
@@ -69,6 +63,12 @@ var store = [{
         "excerpt":"Introduction Simulation has become a key technology for virtually testing a vehicle in a highly realistic environment that can mimic all weather conditions, lighting and city roads, down to the actual cracks in the road. The purpose of virtual testing is for the vehicle to “practice” driving in an environment...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/portfolio/simulation",
+        "teaser": null
+      },{
+        "title": "Udacity Self Driving Car Engineer",
+        "excerpt":"H1 Heading   H2 Heading   H3 Heading   Here’s some basic text.   And here’s some italics   Here’s some bold text.   What about a link?   Here’s a bulleted list:     First item   Second item   Third item  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/portfolio/lanefinding",
         "teaser": null
       },{
         "title": "Modeling Autonomous Vehicle Interactions with Pedestrians",

@@ -40,7 +40,14 @@ feature_row_research:
     btn_class: "btn--primary"
 
 feature_row_hobby_projects1:
-  - image_path: images/projects/sdc/teaser.jpg
+  - image_path: images/projects/udacity_sdr/udacity_sdr.gif
+    title: "Udacity Self Driving Car Engineer"
+    excerpt: "Train neural networks to classify images related to driving, correspond objects from images to lidar point clouds, predict behavior of other objects in the vehicle’s environment, program a finite state machine to plan the vehicle’s motion, and implement PID controller to use steering, acceleration, and brakes."
+    url: "https://github.com/karthikkalidas/Lane-Finding-OpenCV"
+    btn_label: "Code"
+    btn_class: "btn--primary"
+
+  - image_path: images/projects/coursera_sdc/coursera_sdc.gif
     title: "Coursera Self-Driving Car Specialization"
     excerpt: "Projects on State Estimation, Perception and Motion Planning for
     self driving cars offered by University of Toronto."
@@ -48,33 +55,26 @@ feature_row_hobby_projects1:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-  - image_path: images/projects/slam/legoslam.png
+  - image_path: images/projects/hrwros/hrwros.png
+    title: "Robotic Assembly Line using ROS!"
+    excerpt: "Online Course offered by TU Delft on using ROS1 to build an industrial production line with two robotic arms and a mobile robot capable of doing basic tasks such as pick-and-place objects and navigating through obstacles using the Gazebo simulation enviroment."
+    url: "https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+feature_row_hobby_projects2:
+  - image_path: images/projects/slam/legoslam.gif
     title: "Lego Robot SLAM"
     excerpt: "Simultaneous Localization and Mapping (SLAM) project with a 2D lego robot. This course imparts the basic principles about laser scanning and its respective application areas along with the concepts used in state estimation and motion planning. A 2D robot enviroment is used as an example to program estimation algorithms using KF, EKF, and PF using real sensor data."
     url: "https://github.com/karthikkalidas/SLAM-Path-Planning"
     btn_label: "Code"
     btn_class: "btn--primary"
 
-  - image_path: images/projects/lanelines/lanelines.png
-    title: "Lane Finding using OpenCV"
-    excerpt: "Lane line detection for image and video streams using OpenCV and Python. Part of the free-access Udacity Self-Driving Car Nanodegree program"
-    url: "https://github.com/karthikkalidas/Lane-Finding-OpenCV"
-    btn_label: "Code"
-    btn_class: "btn--primary"
-
-feature_row_hobby_projects2:
   - image_path: images/projects/pp/pp_graph.png
     title: "Graph-Based Path Planning"
     excerpt: "Collection of Dijktra, A* and state-space based search algorithms"
     url: "https://github.com/karthikkalidas/SLAM-Path-Planning/tree/master/Unit_PP"
     btn_label: "Code"
-    btn_class: "btn--primary"
-
-  - image_path: images/projects/hrwros/hrwros.png
-    title: "Robotic Assembly Line using ROS!"
-    excerpt: "Online Course offered by TU Delft on using ROS1 to build an industrial production line with two robotic arms and a mobile robot capable of doing basic tasks such as pick-and-place objects and navigating through obstacles using the Gazebo simulation enviroment."
-    url: "https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system"
-    btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: /images/projects/ciy.jpg
