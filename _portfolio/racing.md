@@ -51,12 +51,12 @@ gallery_de:
 ## About Formula Student
 [Formula Student](https://www.imeche.org/events/formula-student) (FS) is one of the world’s largest student engineering design competition with entries from around the world, including USA, Australia, India, Canada and the Far East, as well as a wealth of European teams. Entrants compete to design, build and race a formula style single seater racing car – providing undergraduates with invaluable real-world project experience as they begin their engineering career. It is run by the Institution of Mechanical Engineers [(IMechE)](https://en.wikipedia.org/wiki/Institution_of_Mechanical_Engineers) and uses the same rules as the original Formula SAE with supplementary regulations.
 
-<iframe width="768" height="432" src="https://www.youtube.com/embed/xTLn_G9DQz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/xTLn_G9DQz4" allow="autoplay" allowfullscreen></iframe>
 
 ## About IIT Bombay Racing
 [IIT Bombay Racing](https://www.iitbracing.org/) is India's premier Formula Student Electric team with a vision to "Revolutionize Electric Mobility in India focusing on sustainable technologies and innovations". We participate in the prestigious international competition Formula Student at Silverstone circuit, UK with our electric car, "EVoK" currently, and have been winning the Formula Student Award by IMechE for being the best non-UK team for the past 5 years. You can see EVoK, our 11th car in action with live commentary:
 
-<iframe width="768" height="432" src="https://drive.google.com/file/d/1OwUMdoOuXwtO9riYJ_rToKnf-S5bGJLK/preview" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1EtzbTkHVkejVSg8FEWXCkJoF1TVWLfzX/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 
 ### Awards & Recognition
 - Won the prestigious FS Award worth £3000 twice consecutively, given to top 8 international teams based on overall team progress
