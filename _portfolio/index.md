@@ -63,6 +63,14 @@ feature_row_hobby_projects1:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
+  - image_path: images/projects/udacity_ai_for_healthcare/udacity_ai_for_healthcare.png
+    title: "Udacity AI For Healthcare"
+    excerpt: "Covers fundamental skills needed to work with 2D imaging data, such as extracting images from DICOM files, building AI models, and obtaining regulatory approval. Projects involve Pneumonia Detection using Chest X-Rays, Quantifying Hippocampus Volume for Alzheimer's Progression, Patient Selection for Diabetes Drug Testing, and Motion Compensated Pulse Rate Estimation"
+    url: "https://www.udacity.com/course/ai-for-healthcare-nanodegree--nd320"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+feature_row_hobby_projects2:
   - image_path: images/projects/hrwros/hrwros.png
     title: "Robotic Assembly Line using ROS"
     excerpt: "Online Course offered by TU Delft on using ROS1 to build an industrial production line with two robotic arms and a mobile robot capable of doing basic tasks such as pick-and-place objects and navigating through obstacles using the Gazebo simulation enviroment."
@@ -70,7 +78,6 @@ feature_row_hobby_projects1:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-feature_row_hobby_projects2:
   - image_path: images/projects/slam/legoslam.gif
     title: "Lego Robot SLAM"
     excerpt: "Simultaneous Localization and Mapping (SLAM) project with a 2D lego robot. This course imparts the basic principles about laser scanning and its respective application areas along with the concepts used in state estimation and motion planning. A 2D robot enviroment is used as an example to program estimation algorithms using KF, EKF, and PF using real sensor data."
@@ -83,13 +90,6 @@ feature_row_hobby_projects2:
     excerpt: "Collection of Dijktra, A* and state-space based search algorithms"
     url: "https://github.com/karthikkalidas/SLAM-Path-Planning/tree/master/Unit_PP"
     btn_label: "Code"
-    btn_class: "btn--primary"
-
-  - image_path: /images/projects/ciy.jpg
-    title: "Code-It-Yourself!"
-    excerpt: "A collection of C++ games and applications I like to code to have some fun!"
-    url: "https://community.onelonecoder.com/"
-    btn_label: "Link"
     btn_class: "btn--primary"
 ---
 

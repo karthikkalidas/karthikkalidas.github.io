@@ -31,29 +31,31 @@ toc_label: "Contents"
 - Computer Programming and Utilization (CS101)
 
 ## Online Coursework
-- [Introduction to Self-Driving Cars][1]{:target="_blank"}
-- [State Estimation and Localization for Self-Driving Cars][2]{:target="_blank"}
-- [Visual Perception for Self-Driving Cars][3]{:target="_blank"}
-- [Motion Planning for Self-Driving Cars][4]{:target="_blank"}
-- [Udacity's Self Driving Car Engineer Nanodegree][5]{:target="_blank"}
-- [Hello (Real) World with ROS – Robot Operating System][6]{:target="_blank"}
-- [Machine Learning][7]{:target="_blank"}
-- [Robotics: Estimation and Learning][8]{:target="_blank"}
-- [Robotics: Computational Motion Planning][9]{:target="_blank"}
-- [Robot Mapping (Cyrill Stachniss)][10]{:target="_blank"}
-- [Simultaneous Localization & Mapping (Clauss Brenner)][11]{:target="_blank"}
+- [Udacity's AI For Healthcare Nanodegree][1]{:target="_blank"}
+- [Udacity's Self Driving Car Engineer Nanodegree][2]{:target="_blank"}
+- [Introduction to Self-Driving Cars][3]{:target="_blank"}
+- [State Estimation and Localization for Self-Driving Cars][4]{:target="_blank"}
+- [Visual Perception for Self-Driving Cars][5]{:target="_blank"}
+- [Motion Planning for Self-Driving Cars][6]{:target="_blank"}
+- [Hello (Real) World with ROS – Robot Operating System][7]{:target="_blank"}
+- [Machine Learning][8]{:target="_blank"}
+- [Robotics: Estimation and Learning][9]{:target="_blank"}
+- [Robotics: Computational Motion Planning][10]{:target="_blank"}
+- [Robot Mapping (Cyrill Stachniss)][11]{:target="_blank"}
+- [Simultaneous Localization & Mapping (Clauss Brenner)][12]{:target="_blank"}
 
 
 [o1]: /assets/docs/osu_advising.pdf
 [i1]: /assets/docs/transcript.pdf
-[1]: https://www.coursera.org/learn/intro-self-driving-cars
-[2]: https://www.coursera.org/learn/state-estimation-localization-self-driving-cars
-[3]: https://www.coursera.org/learn/visual-perception-self-driving-cars
-[4]: https://www.coursera.org/learn/motion-planning-self-driving-cars
-[5]: https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013
-[6]: https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system
-[7]: https://www.coursera.org/learn/machine-learning
-[8]: https://www.coursera.org/learn/robotics-learning
-[9]: https://www.coursera.org/learn/robotics-motion-planning
-[10]: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
-[11]: https://www.youtube.com/playlist?list=PLpUPoM7Rgzi_7YWn14Va2FODh7LzADBSm
+[1]: https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013
+[2]: https://www.udacity.com/course/ai-for-healthcare-nanodegree--nd320
+[3]: https://www.coursera.org/learn/intro-self-driving-cars
+[4]: https://www.coursera.org/learn/state-estimation-localization-self-driving-cars
+[5]: https://www.coursera.org/learn/visual-perception-self-driving-cars
+[6]: https://www.coursera.org/learn/motion-planning-self-driving-cars
+[7]: https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system
+[8]: https://www.coursera.org/learn/machine-learning
+[9]: https://www.coursera.org/learn/robotics-learning
+[10]: https://www.coursera.org/learn/robotics-motion-planning
+[11]: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
+[12]: https://www.youtube.com/playlist?list=PLpUPoM7Rgzi_7YWn14Va2FODh7LzADBSm
