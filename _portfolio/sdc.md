@@ -19,12 +19,8 @@ This course will introduce you to the terminology, design considerations and saf
 - Analyze the safety frameworks and current industry practices for vehicle development
 
 For the final project in this course, you will develop control code to navigate a self-driving car around a racetrack in the CARLA simulation environment. You will construct longitudinal and lateral dynamic models for a vehicle and create controllers that regulate speed and path tracking performance using Python. You’ll test the limits of your control design and learn the challenges inherent in driving at the limit of vehicle performance.
-
-## Final Project
-
-![](/images/projects/sdc/intro.png)
-![](/images/projects/sdc/intro2.png)
-<iframe src="https://drive.google.com/file/d/1_8cezxhPAS0KNAQ62mf8u1xVuv92Oafo/preview" width="768" height="432" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1kIiFTZDUElGRFHiIlKq0YgMmimpy1BG_/preview" width="640" height="480" allow="autoplay"></iframe>
+---
 
 # State Estimation and Localization for Self-Driving Cars
 This course will introduce you to the different sensors and how we can use them for state estimation and localization in a self-driving car. By the end of this course, you will be able to:
@@ -37,14 +33,10 @@ This course will introduce you to the different sensors and how we can use them 
 
 For the final project in this course, you will implement the Error-State Extended Kalman Filter (ES-EKF) to localize a vehicle using data from the CARLA simulator.
 
-## Final Project
-
-![](/images/projects/sdc/state_estimation.png)
-![](/images/projects/sdc/state_estimation2.png)
+![](/images/projects/coursera_sdc/state_estimation.png)
+---
 
 # Motion Planning for Self-Driving Cars
 This course will introduce you to the main planning tasks in autonomous driving, including mission planning, behavior planning and local planning. By the end of this course, you will be able to find the shortest path over a graph or road network using Dijkstra’s and the A* algorithm, use finite state machines to select safe behaviors to execute, and design optimal, smooth paths and velocity profiles to navigate safely around obstacles while obeying traffic laws. You’ll also build occupancy grid maps of static elements in the environment and learn how to use them for efficient collision checking. This course will give you the ability to construct a full self-driving planning solution, to take you from home to work while behaving like a typical driving and keeping the vehicle safe at all times. For the final project in this course, you will implement a hierarchical motion planner to navigate through a sequence of scenarios in the CARLA simulator, including avoiding a vehicle parked in your lane, following a lead vehicle and safely navigating an intersection. You’ll face real-world randomness and need to work to ensure your solution is robust to changes in the environment.
 
-## Final Project
-![](/images/projects/sdc/course4.jpg)
-<iframe src="https://drive.google.com/file/d/1Xz3LWEFMwP3UAjFFc3YJslhbrrwK_NYb/preview" width="768" height="432" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1ewxcHolJEFGBOPj3-3tJbzef8WgMuF3W/preview" width="640" height="480" allow="autoplay"></iframe>

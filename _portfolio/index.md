@@ -6,8 +6,16 @@ classes: wide
 toc: false
 toc_label: "Contents"
 
-feature_row_kpit:
-  - image_path: images/kpit2.png
+feature_row_professional:
+  - image_path: images/torc/torc.jpg
+    title: "Torc Robotics"
+    excerpt: "My experience at Torc Robotics"
+    url: /portfolio/torc
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    excerpt: "Developing class 8 autonomous trucks as part of the Platform & Vehicle Commissioning team. My expertise lies in system integration and testing within the field of autonomous vehicle technology"
+
+  - image_path: images/kpit/kpit-logo.jpg
     title: "Internship at KPIT Technologies"
     excerpt: "My experience being a part of the ADAS group at KPIT"
     url: /portfolio/kpit
@@ -40,7 +48,14 @@ feature_row_research:
     btn_class: "btn--primary"
 
 feature_row_hobby_projects1:
-  - image_path: images/projects/sdc/teaser.jpg
+  - image_path: images/projects/udacity_sdr/udacity_sdr.gif
+    title: "Udacity Self Driving Car Engineer"
+    excerpt: "Train neural networks to classify images related to driving, correspond objects from images to lidar point clouds, predict behavior of other objects in the vehicle’s environment, program a finite state machine to plan the vehicle’s motion, and implement PID controller to use steering, acceleration, and brakes."
+    url: "https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+  - image_path: images/projects/coursera_sdc/coursera_sdc.gif
     title: "Coursera Self-Driving Car Specialization"
     excerpt: "Projects on State Estimation, Perception and Motion Planning for
     self driving cars offered by University of Toronto."
@@ -48,45 +63,38 @@ feature_row_hobby_projects1:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-  - image_path: images/projects/slam/legoslam.png
+  - image_path: images/projects/udacity_ai_for_healthcare/udacity_ai_for_healthcare.png
+    title: "Udacity AI For Healthcare"
+    excerpt: "Covers fundamental skills needed to work with 2D imaging data, such as extracting images from DICOM files, building AI models, and obtaining regulatory approval. Projects involve Pneumonia Detection using Chest X-Rays, Quantifying Hippocampus Volume for Alzheimer's Progression, Patient Selection for Diabetes Drug Testing, and Motion Compensated Pulse Rate Estimation"
+    url: "https://www.udacity.com/course/ai-for-healthcare-nanodegree--nd320"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+feature_row_hobby_projects2:
+  - image_path: images/projects/hrwros/hrwros.png
+    title: "Robotic Assembly Line using ROS"
+    excerpt: "Online Course offered by TU Delft on using ROS1 to build an industrial production line with two robotic arms and a mobile robot capable of doing basic tasks such as pick-and-place objects and navigating through obstacles using the Gazebo simulation enviroment."
+    url: "https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+  - image_path: images/projects/slam/legoslam.gif
     title: "Lego Robot SLAM"
     excerpt: "Simultaneous Localization and Mapping (SLAM) project with a 2D lego robot. This course imparts the basic principles about laser scanning and its respective application areas along with the concepts used in state estimation and motion planning. A 2D robot enviroment is used as an example to program estimation algorithms using KF, EKF, and PF using real sensor data."
     url: "https://github.com/karthikkalidas/SLAM-Path-Planning"
     btn_label: "Code"
     btn_class: "btn--primary"
 
-  - image_path: images/projects/lanelines/lanelines.png
-    title: "Lane Finding using OpenCV"
-    excerpt: "Lane line detection for image and video streams using OpenCV and Python. Part of the free-access Udacity Self-Driving Car Nanodegree program"
-    url: "https://github.com/karthikkalidas/Lane-Finding-OpenCV"
-    btn_label: "Code"
-    btn_class: "btn--primary"
-
-feature_row_hobby_projects2:
   - image_path: images/projects/pp/pp_graph.png
     title: "Graph-Based Path Planning"
     excerpt: "Collection of Dijktra, A* and state-space based search algorithms"
     url: "https://github.com/karthikkalidas/SLAM-Path-Planning/tree/master/Unit_PP"
     btn_label: "Code"
     btn_class: "btn--primary"
-
-  - image_path: images/projects/hrwros/hrwros.png
-    title: "Robotic Assembly Line using ROS!"
-    excerpt: "Online Course offered by TU Delft on using ROS1 to build an industrial production line with two robotic arms and a mobile robot capable of doing basic tasks such as pick-and-place objects and navigating through obstacles using the Gazebo simulation enviroment."
-    url: "https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-
-  - image_path: /images/projects/ciy.jpg
-    title: "Code-It-Yourself!"
-    excerpt: "A collection of C++ games and applications I like to code to have some fun!"
-    url: "https://community.onelonecoder.com/"
-    btn_label: "Link"
-    btn_class: "btn--primary"
 ---
 
 ## Professional Experience
-{% include feature_row id="feature_row_kpit" type="left"%}
+{% include feature_row id="feature_row_professional" type="left"%}
 ## Engineering Experience
 {% include feature_row id="feature_row_racing" type="left"%}
 ## Research | Automated Driving Lab
