@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<a href="/" class="home-link">Home</a>
 <a href="/blog" class="back-link">Back</a>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -20,6 +21,13 @@ layout: default
     <div class="post-content e-content" itemprop="articleBody">
         {{ content }}
     </div>
+
+    {%- assign content_lines = content | newline_to_br | split: '<br />' | size %}
+    {%- if content_lines > 20 %}
+    <a href="/" class="home-link">Home</a>
+    <a href="/blog" class="back-link">Back</a>
+    <br>
+    {%- endif %}
 
     {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

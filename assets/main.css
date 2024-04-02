@@ -350,6 +350,16 @@ hr {
   font-style: italic;
 }
 
+.home-link {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  float: right;
+  margin-left: 20px;
+}
+
 .back-link {
   display: block;
   margin-top: 20px;
@@ -357,4 +367,5 @@ hr {
   color: blue;
   font-weight: bold;
   float: right;
+  margin-right: 20px;
 }
