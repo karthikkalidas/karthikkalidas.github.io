@@ -1,0 +1,4 @@
+- Add more contect to history
+- Make image openable
+- Add more contect to projects
+- Add blog section
