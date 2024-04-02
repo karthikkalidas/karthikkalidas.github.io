@@ -5,3 +5,7 @@ date:   2024-04-02 18:24:30 +0530
 ---
 
 hello world
+
+```
+print("some code")
+```
