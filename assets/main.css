@@ -195,17 +195,16 @@ h1 {
 }
 
 h2 {
+  font-size: 18px;
   font-weight: normal;
   font-style: italic;
   color: gray;
-  font-size: 18px;
   padding: 0;
-  margin: 5px 0 10px 0;
 }
 
 @media (min-width: 992px) {
   h2 {
-    max-width: 300px;
+    max-width: 1000px;
   }
 }
 
