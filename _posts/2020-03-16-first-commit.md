@@ -10,5 +10,3 @@ why a blog?
 - to provide pure good will information. Tired of too much stimulating content, ads, clickbait on the internet
 - document stuff since i have a terrible memory
 - cant replace authenticity these days with a language model
-
-Posts will also be posted on Medium to increase visibility
